@@ -1,0 +1,75 @@
+body{
+    background-color: hsl(0, 0%, 75%);
+    font-family: monospace;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    font-size: 3em;
+    background-color: hsl(208, 47%, 61%);
+    padding: 7px;
+    border: 2.5px solid;
+    border-radius: 15px;
+    border-color: hsl(0, 0%, 20%);
+    
+}
+#container{
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 20%;
+    padding: 50px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 3px solid;
+}
+#stopwatch{
+    font-size: 4em;
+    color: white;
+    background-color: hsl(0, 0%, 40%);
+    border: 2px solid;
+    border-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    padding: 5px;
+}
+#buttons button{
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#startBtn{
+    background-color: hsl(120, 65%, 45%);
+}
+#startBtn:hover{
+    background-color: hsl(120, 65%, 65%);
+}
+#startBtn:active{
+    background-color: hsl(120, 65%, 25%);
+}
+#stopBtn{
+    background-color: hsl(0, 65%, 55%);
+}
+#stopBtn:hover{
+    background-color: hsl(0, 65%, 65%);
+}
+#stopBtn:active{
+    background-color: hsl(0, 65%, 25%);
+}
+#resetBtn{
+    background-color: hsl(266, 65%, 65%);
+}
+#resetBtn:hover{
+    background-color: hsl(266, 65%, 75%);
+}
+#resetBtn:active{
+    background-color: hsl(266, 85%, 25%);
+}

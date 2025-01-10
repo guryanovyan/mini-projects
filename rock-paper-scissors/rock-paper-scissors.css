@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(0, 0%, 85%);
+    text-align: center;
+    font-family: Arial;
+
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 3rem;
+    background-color: rgb(203, 231, 255);
+    width: 500px;
+    margin: auto;
+    border: 4px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+#choices{
+    margin: 30px;
+}
+#choices button{
+    font-size: 7rem;
+    margin: 0 20px;
+    width: 175px;
+    height: 175px;
+    border-radius: 200px;
+    border: 7px solid hsl(0, 0%, 30%);
+    box-shadow: 1px 1px 10px;
+    cursor: pointer;
+}
+#choices button:hover{
+    border-color: hsl(112, 53%, 40%);
+    box-shadow: 1px 1px 20px;
+}
+#choices button:active{
+    background-color: hsl(112, 53%, 60%);
+    box-shadow: 2px 2px 30px;
+}
+.greenBackground{
+    background-color: hsl(112, 53%, 50%);
+}
+.redBackground{
+    background-color: hsl(0, 53%, 50%);
+}
+.greenAndRedBackground{
+    background-color: hsl(26, 60%, 39%);
+}
+.greenText, .playersColor{
+    color:hsl(112, 72%, 39%);
+}
+.redText, .opponentsColor{
+    color:hsl(0, 62%, 48%);
+}
+.greenAndRedText{
+    color: hsl(26, 60%, 39%);
+}
+#choicesDisplay{
+    background-color: hsl(0, 0%, 80%);
+    font-size: 1.5rem;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: left;
+    border: 3px solid;
+    border-radius: 10px;
+}
+#resultDisplay{
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: bold;
+    min-height: 56px;
+}
+#scoresDisplay{
+    background-color: hsl(0, 0%, 80%);
+    font-size: 2rem;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: left;
+    border: 3px solid;
+    border-radius: 10px;
+}
